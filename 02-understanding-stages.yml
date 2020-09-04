@@ -36,6 +36,6 @@ stages:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
         ArtifactName: 'drop'
         publishLocation: 'Container'
-  - job: FirstJob
+  - job: SecondJob
     steps:
     - bash: echo Build SecondJob 
