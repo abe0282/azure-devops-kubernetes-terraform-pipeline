@@ -27,4 +27,4 @@ stages:
         repository: 'abe0282/jenkins'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: '$(tag)'
+        tags: 'latest'
